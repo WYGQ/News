@@ -1,0 +1,76 @@
+<!--index.wxml-->
+<view class="news-wrapper">
+  <view class="news-list">
+    <view class="news-item" wx:for="{{['国内', '国际', '财经', '娱乐', '军事', '体育', '其他']}}">
+      <view class="news-types">{{item}}</view>
+    </view>
+  </view>
+  <image class="bgImage" src="/images/00.jpg"></image>
+  <view class="hot-news">
+    <view class="frontPage">
+      <view class="hot-title">香港反对派议员上BBC"要普选" 被主持人给怼到心态崩了</view>
+      <view class="hot-source-date">
+        <view class="hot-source">中新网</view>
+        <view class="hot-date">2019年8月4日</view>
+      </view>
+    </view>
+    <view class="hot">热门</view>
+    <image class="firstImage" src="/images/00.jpg"></image>
+
+  </view>
+  <view class="type-list">
+    <view class="secondPage">
+      <view class="title">亚太青少年科技创新大会在香港举办</view>
+      <view class="source-date">
+        <view class="source">中国网</view>
+        <view class="date">2019年8月5日</view>
+      </view>
+    </view>
+    <image class="secondImage" src="/images/02.jpg"></image>
+  </view>
+  <view class="sp"></view>
+  <view class="type-list">
+    <view class="secondPage">
+      <view class="title">亚太青少年科技创新大会在香港举办</view>
+      <view class="source-date">
+        <view class="source">中国网</view>
+        <view class="date">2019年8月5日</view>
+      </view>
+    </view>
+    <image class="secondImage" src="/images/02.jpg"></image>
+  </view>
+  <view class="sp"></view>
+  <view class="type-list">
+    <view class="secondPage">
+      <view class="title">亚太青少年科技创新大会在香港举办</view>
+      <view class="source-date">
+        <view class="source">中国网</view>
+        <view class="date">2019年8月5日</view>
+      </view>
+    </view>
+    <image class="secondImage" src="/images/02.jpg"></image>
+  </view>
+  <view class="sp"></view>
+  <view class="type-list">
+    <view class="secondPage">
+      <view class="title">亚太青少年科技创新大会在香港举办</view>
+      <view class="source-date">
+        <view class="source">中国网</view>
+        <view class="date">2019年8月5日</view>
+      </view>
+    </view>
+    <image class="secondImage" src="/images/02.jpg"></image>
+  </view>
+  <view class="sp"></view>
+  <view class="type-list">
+    <view class="secondPage">
+      <view class="title">亚太青少年科技创新大会在香港举办</view>
+      <view class="source-date">
+        <view class="source">中国网</view>
+        <view class="date">2019年8月5日</view>
+      </view>
+    </view>
+    <image class="secondImage" src="/images/02.jpg"></image>
+  </view>
+  <view class="sp"></view>
+</view>
