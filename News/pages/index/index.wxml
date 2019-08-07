@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="news-wrapper">
+  <view class="news-list">
+    <view class="news-item" wx:for="{{newsTypes}}">
+      <view class="news-types">{{item}}</view>
+    </view>
+  </view>
+  <image class="bgImage" src="{{hotImage}}" mode="scaleToFill"></image>
+  <view class="hot-news">
+    <view class="frontPage">
+      <view class="hot-title">{{hotTitle}}</view>
+      <view class="hot-source-date">
+        <view class="hot-source">{{hotSource}}</view>
+        <view class="hot-date">{{hotDate}}</view>
+      </view>
+    </view>
+    <view class="hot">热门</view>
+    <image class="firstImage" src="{{hotImage}}" mode="scaleToFill"></image>
+
+  </view>
+</view>
+<scroll-view scroll-y style='height: 900px'>
+  <view class="type-list">
+    <view class="secondPage-item" wx:for="{{secondPageList}}">
+    <view class="news-text"> 
+      <view class="title">{{item.title}}</view>
+      <view class="source-date">
+        <view class="source">{{item.source}}</view>
+        <view class="date">{{item.date}}</view>
+      </view>
+    </view>
+    <view class="secondImage-wrapper">
+      <image class="secondImage" src="{{item.firstImage}}"></image>
+    </view>
+    </view>
+  </view>
+</scroll-view>
